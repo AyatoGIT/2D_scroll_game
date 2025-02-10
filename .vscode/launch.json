@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "src.game.Game",
+            "projectName": "2D_scroll_game_d9232832"
+        },
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch Minesweeper",
+            "mainClass": "Minesweeper",
+            "vmArgs": [
+                "--module-path",
+                "/Users/mymac/Documents/Java/javafx-sdk-19.0.2.1/lib",
+                "--add-modules",
+                "javafx.controls,javafx.fxml"
+            ]
+        }
+    ]
+}
